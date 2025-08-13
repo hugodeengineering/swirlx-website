@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SwirlX - TPMS Heat Exchangers</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #0a0a0a; color: white; }
+        .gradient-text { background: linear-gradient(135deg, #ffffff 0%, #f59e0b 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+        .hero-bg { background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 50%, #0a0a0a 100%); }
+        .text-shadow { text-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full z-50 bg-black/80 backdrop-blur-md border-b border-white/10">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between items-center py-6">
+                <div class="flex items-center space-x-3">
+                    <div class="w-12 h-12 bg-white rounded-lg flex items-center justify-center">
+                        <svg class="w-8 h-8 text-black" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z" clip-rule="evenodd" />
+                        </svg>
+                    </div>
+                    <span class="text-2xl font-bold text-white">SwirlX</span>
+                </div>
+                <div class="hidden md:flex items-center space-x-12">
+                    <a href="#home" class="text-white/80 hover:text-white transition-colors font-medium">Home</a>
+                    <a href="#products" class="text-white/80 hover:text-white transition-colors font-medium">Products</a>
+                    <a href="#technology" class="text-white/80 hover:text-white transition-colors font-medium">Technology</a>
+                    <a href="#contact" class="text-white/80 hover:text-white transition-colors font-medium">Contact</a>
+                </div>
+                <button class="bg-white hover:bg-gray-100 text-black font-semibold py-4 px-8 rounded-none transition-all duration-300 transform hover:scale-105">
+                    Get Quote
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative min-h-screen flex items-center justify-center overflow-hidden pt-20 hero-bg">
+        <div class="absolute inset-0 z-0">
+            <div class="absolute inset-0 bg-gradient-to-br from-black via-gray-900 to-black"></div>
+        </div>
+        <div class="relative z-10 text-center px-4 max-w-6xl mx-auto">
+            <h1 class="text-6xl sm:text-7xl lg:text-8xl font-black text-white mb-8 leading-none text-shadow">
+                <span class="block">Building</span>
+                <span class="block">next-generation</span>
+                <span class="block gradient-text">heat exchangers</span>
+            </h1>
+            <p class="text-xl sm:text-2xl lg:text-3xl text-white/80 mb-12 max-w-4xl mx-auto leading-relaxed font-light">
+                SwirlX is developing humanity's most efficient TPMS heat exchangers, pioneering the next giant leap toward sustainable industrial processes.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-6 justify-center items-center mb-16">
+                <button class="bg-white hover:bg-gray-100 text-black font-semibold py-4 px-8 rounded-none transition-all duration-300 transform hover:scale-105 text-lg">
+                    Watch Full Video
+                </button>
+                <button class="bg-transparent border-2 border-white text-white hover:bg-white hover:text-black font-semibold py-4 px-8 rounded-none transition-all duration-300 text-lg">
+                    Learn More
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="py-24 px-4 bg-black">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-20">
+                <h2 class="text-5xl sm:text-6xl font-black text-white mb-8">
+                    <span class="gradient-text">SwirlX-1</span>
+                </h2>
+                <p class="text-2xl text-white/80 max-w-4xl mx-auto">
+                    The world's most efficient TPMS heat exchanger
+                </p>
+            </div>
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 mb-16">
+                <div class="text-center">
+                    <div class="text-3xl font-bold text-white mb-2">4</div>
+                    <div class="text-white/60 text-sm uppercase tracking-wider">crew</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-3xl font-bold text-white mb-2">10.1m</div>
+                    <div class="text-white/60 text-sm uppercase tracking-wider">height</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-3xl font-bold text-white mb-2">45 m³</div>
+                    <div class="text-white/60 text-sm uppercase tracking-wider">habitable volume</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-3xl font-bold text-white mb-2">80 m³</div>
+                    <div class="text-white/60 text-sm uppercase tracking-wider">pressurized volume</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-3xl font-bold text-white mb-2">14,600 kg</div>
+                    <div class="text-white/60 text-sm uppercase tracking-wider">mass</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-3xl font-bold text-white mb-2">13,200w</div>
+                    <div class="text-white/60 text-sm uppercase tracking-wider">power</div>
+                </div>
+            </div>
+            <div class="text-center">
+                <button class="bg-white hover:bg-gray-100 text-black font-semibold py-4 px-8 rounded-none transition-all duration-300 transform hover:scale-105 text-lg">
+                    Learn More
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Section -->
+    <section id="technology" class="py-24 px-4 bg-gray-900">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-20">
+                <h2 class="text-5xl sm:text-6xl font-black text-white mb-8">
+                    <span class="gradient-text">Technology</span>
+                </h2>
+                <p class="text-2xl text-white/80 max-w-4xl mx-auto">
+                    Designed, manufactured, and tested in the United States
+                </p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-black p-8 hover:transform hover:-translate-y-2 transition-transform duration-300">
+                    <div class="w-16 h-16 bg-white rounded-lg flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-white mb-4">High Efficiency</h3>
+                    <p class="text-white/70 text-lg">Advanced thermal design ensures maximum heat transfer efficiency, reducing energy consumption by up to 40%.</p>
+                </div>
+                <div class="bg-black p-8 hover:transform hover:-translate-y-2 transition-transform duration-300">
+                    <div class="w-16 h-16 bg-white rounded-lg flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-white mb-4">Low Emissions</h3>
+                    <p class="text-white/70 text-lg">Environmentally conscious design minimizes harmful emissions while maintaining optimal performance standards.</p>
+                </div>
+                <div class="bg-black p-8 hover:transform hover:-translate-y-2 transition-transform duration-300">
+                    <div class="w-16 h-16 bg-white rounded-lg flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-white mb-4">Global Reach</h3>
+                    <p class="text-white/70 text-lg">Serving customers worldwide with local support, rapid delivery, and comprehensive after-sales service.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact CTA -->
+    <section id="contact" class="py-24 px-4 bg-gray-900">
+        <div class="max-w-7xl mx-auto text-center">
+            <h2 class="text-5xl sm:text-6xl font-black text-white mb-8">
+                Ready to <span class="gradient-text">Transform</span> Your Operations?
+            </h2>
+            <p class="text-2xl text-white/80 mb-12 max-w-4xl mx-auto">
+                Contact our engineering team today to discuss how SwirlX TPMS heat exchangers can optimize your industrial processes.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-6 justify-center">
+                <button class="bg-white hover:bg-gray-100 text-black font-semibold py-4 px-8 rounded-none transition-all duration-300 transform hover:scale-105 text-lg">
+                    Request Quote
+                </button>
+                <button class="bg-transparent border-2 border-white text-white hover:bg-white hover:text-black font-semibold py-4 px-8 rounded-none transition-all duration-300 text-lg">
+                    Schedule Consultation
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white py-16 border-t border-white/10">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
+                <div class="col-span-1 md:col-span-2">
+                    <div class="flex items-center space-x-3 mb-6">
+                        <div class="w-12 h-12 bg-white rounded-lg flex items-center justify-center">
+                            <svg class="w-8 h-8 text-black" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z" clip-rule="evenodd" />
+                            </svg>
+                        </div>
+                        <span class="text-2xl font-bold">SwirlX</span>
+                    </div>
+                    <p class="text-white/70 text-lg mb-6">
+                        Leading manufacturer of high-efficiency TPMS heat exchangers for industrial applications worldwide.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-6">Quick Links</h3>
+                    <ul class="space-y-3">
+                        <li><a href="#home" class="text-white/70 hover:text-white transition-colors">Home</a></li>
+                        <li><a href="#products" class="text-white/70 hover:text-white transition-colors">Products</a></li>
+                        <li><a href="#technology" class="text-white/70 hover:text-white transition-colors">Technology</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-6">Contact</h3>
+                    <ul class="space-y-3 text-white/70">
+                        <li>info@swirlx.com</li>
+                        <li>+1 (555) 123-4567</li>
+                        <li>123 Industrial Blvd<br>Engineering District, ED 12345</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-white/10 mt-12 pt-8 text-center text-white/50">
+                <p>&copy; 2024 SwirlX. All rights reserved. | TPMS Heat Exchanger Solutions</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
