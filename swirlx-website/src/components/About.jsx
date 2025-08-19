@@ -8,10 +8,10 @@ const About = () => {
           {/* Content */}
           <div>
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              About SwirlX TPMS
+              About SwirlX
             </h2>
             <p className="text-lg text-gray-600 mb-6">
-              Founded in 2010, SwirlX TPMS has been at the forefront of heat exchanger 
+              Founded in 2024, SwirlX has been at the forefront of heat exchanger 
               innovation, developing sustainable solutions for the world's most demanding 
               industrial applications.
             </p>

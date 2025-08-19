@@ -1,4 +1,5 @@
 import React from "react";
+import { motion, AnimatePresence } from "framer-motion";
 import Navigation from "./components/Navigation";
 import Hero from "./components/Hero";
 import Technology from "./components/Technology";
@@ -9,10 +10,20 @@ function App() {
   return (
     <div className="App">
       <Navigation />
-      <Hero />
-      <Technology />
-      <About />
-      <Contact />
+      <AnimatePresence mode="wait">
+        <motion.div
+          key="main-content"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          transition={{ duration: 0.5, ease: "easeInOut" }}
+        >
+          <Hero />
+          <Technology />
+          <About />
+          <Contact />
+        </motion.div>
+      </AnimatePresence>
     </div>
   );
 }
