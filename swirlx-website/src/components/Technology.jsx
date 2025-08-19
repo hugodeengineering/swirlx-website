@@ -70,7 +70,7 @@ const Technology = () => {
             transition={{ duration: 0.8, delay: 0.4 }}
             viewport={{ once: true }}
           >
-            SwirlX TPMS delivers cutting-edge heat exchanger solutions that maximize efficiency 
+            SwirlX delivers cutting-edge heat exchanger solutions that maximize efficiency 
             while minimizing environmental impact across industrial applications.
           </motion.p>
         </motion.div>

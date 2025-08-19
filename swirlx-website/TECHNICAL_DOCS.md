@@ -1,11 +1,11 @@
-# 🔧 SwirlX Website - Technical Documentation
+# SwirlX Website - Technical Documentation
 
-## 🎯 **Purpose**
+## Purpose
 This document provides technical details about the SwirlX website architecture, deployment process, and technical specifications for IT teams, system administrators, and future developers.
 
 ---
 
-## 📋 **Table of Contents**
+## Table of Contents
 1. [System Architecture](#system-architecture)
 2. [Technology Stack](#technology-stack)
 3. [Deployment Process](#deployment-process)
@@ -21,15 +21,15 @@ This document provides technical details about the SwirlX website architecture, 
 
 ---
 
-## 🏗️ **System Architecture**
+## System Architecture
 
-### **Overview**
+### Overview
 - **Type:** Single Page Application (SPA)
 - **Framework:** React 18 with Vite build tool
 - **Hosting:** Vercel (serverless deployment)
 - **Domain:** swirlx-engineering.com (custom domain)
 
-### **Architecture Diagram**
+### Architecture Diagram
 ```
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
 │   User Browser  │───▶│   Vercel CDN    │───▶│  React App      │
@@ -43,7 +43,7 @@ This document provides technical details about the SwirlX website architecture, 
                        └─────────────────┘
 ```
 
-### **Data Flow**
+### Data Flow
 1. **User Request** → Vercel CDN
 2. **CDN Check** → Static files served if available
 3. **Cache Miss** → Origin server (Vercel)
@@ -52,14 +52,14 @@ This document provides technical details about the SwirlX website architecture, 
 
 ---
 
-## 🛠️ **Technology Stack**
+## Technology Stack
 
-### **Frontend Framework**
+### Frontend Framework
 - **React 18.2.0** - Modern React with hooks and concurrent features
 - **JSX** - JavaScript XML for component structure
 - **React Router** - Client-side routing (if implemented)
 
-### **Build Tools**
+### Build Tools
 - **Vite 4.4.0** - Fast build tool and development server
 - **PostCSS 8.4.24** - CSS processing and optimization
 - **Autoprefixer 10.4.14** - CSS vendor prefixing

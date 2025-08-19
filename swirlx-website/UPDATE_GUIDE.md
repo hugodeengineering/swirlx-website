@@ -1,11 +1,11 @@
-# 🔄 SwirlX Website - Update Procedures Guide
+# SwirlX Website - Update Procedures Guide
 
-## 🎯 **Purpose**
+## Purpose
 This guide provides step-by-step instructions for making common updates to the SwirlX website. It's designed for non-technical users who need to update content when the developer is not available.
 
 ---
 
-## 📋 **Table of Contents**
+## Table of Contents
 1. [Before You Begin](#before-you-begin)
 2. [Setting Up Your Environment](#setting-up-your-environment)
 3. [Common Update Procedures](#common-update-procedures)
@@ -17,21 +17,21 @@ This guide provides step-by-step instructions for making common updates to the S
 
 ---
 
-## ⚠️ **Before You Begin**
+## Before You Begin
 
-### **What You Need**
+### What You Need
 - **Computer** with internet access
 - **Code Editor** (VS Code recommended)
 - **GitHub Account** (if making code changes)
 - **Basic Text Editing Skills**
 
-### **What You Don't Need**
+### What You Don't Need
 - **Programming knowledge**
 - **Technical expertise**
 - **Server access**
 - **Database knowledge**
 
-### **Safety First**
+### Safety First
 - **Always backup** before making changes
 - **Test changes** on a small section first
 - **Don't panic** if something goes wrong

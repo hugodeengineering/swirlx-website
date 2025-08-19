@@ -1,7 +1,7 @@
 {
   "name": "swirlx-website",
   "version": "1.0.0",
-  "description": "Modern industrial-style marketing website for SwirlX TPMS heat exchangers",
+  "description": "Modern industrial-style marketing website for SwirlX heat exchangers",
   "main": "index.js",
   "scripts": {
     "dev": "vite",
@@ -21,7 +21,7 @@
     "tailwindcss": "^3.3.2",
     "vite": "^4.4.0"
   },
-  "keywords": ["tpm", "heat-exchanger", "industrial", "marketing", "react"],
+  "keywords": ["heat-exchanger", "industrial", "marketing", "react"],
   "author": "SwirlX",
   "license": "MIT"
 }
